@@ -1,6 +1,9 @@
 package zoo;
 
-public class owner {
+import java.util.ArrayList;
+import java.util.List;
+
+public class Owner {
     public static void main(String[] args) {
         Animal animal = new Animal();
         Animal animal2 = new Animal();
@@ -16,6 +19,11 @@ public class owner {
         animal2.age = 2138;
         animal2.speak();
         animal.feed("electrons");
+
+        List<Animal> zwierzeta = new ArrayList<>();
+        zwierzeta.add(animal);
+        zwierzeta.add(animal2);
+
 
     }
 }

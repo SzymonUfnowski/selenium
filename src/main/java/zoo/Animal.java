@@ -15,6 +15,6 @@ public class Animal {
 
     }
     void feed(String food){
-        System.out.println("i eat" + food);
+        System.out.println("i eat " + food);
     }
 }
